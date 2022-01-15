@@ -13,7 +13,6 @@ spec:
         app: helloservice
     spec:
       serviceAccountName: default
-      terminationGracePeriodSeconds: 5
       containers:
       - name: hello-container
         image: 'docker.io/darya2019/hello-from-cloud:latest'
