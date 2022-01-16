@@ -40,6 +40,8 @@ metadata:
   name: frontend-external
 spec:
   type: LoadBalancer
+  selector:
+   app: helloservice
   ports:
   - name: http
     port: 80
