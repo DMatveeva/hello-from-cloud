@@ -15,7 +15,7 @@ spec:
       serviceAccountName: default
       containers:
       - name: hello-container
-        image: 'gcr.io/hello-from-cloud/hello-from-cloud:latest'
+        image: 'docker.io/darya2019/hello-from-cloud:latest'
         ports:
         - containerPort: 8081
 ---
