@@ -12,6 +12,7 @@ spec:
   template:
     metadata:
       labels:
+       app: helloservice
        mylabel: myapp
     spec:
       serviceAccountName: default
